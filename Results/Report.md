@@ -14,9 +14,11 @@
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-`loan_status
+```
+loan_status
 0    75036
-1     2500`
+1     2500
+```
 
 
 * Machine Learning Model 1: LogisticRegression with original data. 
