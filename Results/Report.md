@@ -56,12 +56,16 @@ Model 2 with random oversampled data is overall better than model 1.
 
 * Machine Learning Model 1: LogisticRegression with original data. 
   * Original data is sampled once. 
-  * Model 1 Accuracy is 95%. `0` (healthy loan) label prediction is 100% precision and 99% recall, while `1` (high-risk loan) label prediction is at 85% precision and 91% recall.
+  * Model 1 Accuracy is 95%. 
+  * `0` (healthy loan) label prediction is 100% precision and 99% recall
+  * `1` (high-risk loan) label prediction is at 85% precision and 91% recall.
 
 
 * Machine Learning Model 2: LogisticRegression with Random over-sampling to balance the data set. 
   * Some data is randomly sampled more than once to balance the number of samples between datasets. 
-  * Model 2 Accuracy is 99%.  `0` (healthy loan) label prediction is 100% precision and 99% recall, while `1` (high-risk loan) label prediction is at 84% precision and 99% recall.
+  * Model 2 Accuracy is 99%.  
+  * `0` (healthy loan) label prediction is 100% precision and 99% recall
+  * `1` (high-risk loan) label prediction is at 84% precision and 99% recall.
 
 ## Summary
 From a loss prevention perspective, it is more important to catch all high-risk loans. 
